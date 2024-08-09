@@ -47,7 +47,7 @@ http://linears-playback.astro.com.my/vsg/41C-rSd8jn4CQqXyylxHAQQXsdlVlQhubSvWV1z
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"eupDzZPCSqmDTstJhPf9Wg","kid":"IvvvHBzXJek5fsFkVfCCEA"}],"type":"temporary"}
 #EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-http://linears-playback.astro.com.my/vsg/41epK7zMO7HjXAw7q3zOJJWOwuhLr8BmX8p4Js1tYGaNw=gL3y/dash-wv/jitp-linearwm/1601/default_ott.mpd
+http://linears-playback.astro.com.my/vsg/41epK7zMO7HjXAw7q3zOJJWOwuhLr8BmX8p4Js1tYGaNw=gL3y/dash-wv/jitp-linearwm/1601/default_primary.mpd
 =================================
 =================================
 #EXTINF:-1 tvg-id="101.astro" ch-number="101" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(ASTRO)" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TV1_v1.png",TV1 HD CH101
@@ -580,11 +580,8 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/9984/default_primary.mpd
 http://linearjitp-playback.astro.com.my/dash-wv/linear/9985/default_primary.mpd
 
 #EXTINF:-1 tvg-id="549.astro" ch-number="549" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(ASTRO)" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Love-Nature4K_190x80_TV-Guide.png",Love Nature 4K CH549
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"btySxJvoTKei8ye+r7zK5g", "kid":"Gv3K9BmL/TIAWERp/D5REA" } ], "type":"temporary" }
-#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
 http://linearjitp-playback.astro.com.my/dash-wv/linear/5097/default_primary.mpd
 
 #EXTINF:-1 tvg-id="550.astro" ch-number="550" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(ASTRO)" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Love-Nature_190x80_TV-Guide.png",Love Nature CH550
@@ -1038,10 +1035,13 @@ https://unifi-live29.secureswiftcontent.com/UnifiHD/live29.mpd
 =================================
 LAIN2 CHANNELS
 
-#EXTINF:-1 tvg-id="nothing" ch-number="621" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(LAIN2)" tvg-logo="https://images.pluto.tv/channels/60faffc3fbbc120007fc4376/colorLogoPNG.png",BABY SHARK TV
+#EXTINF:-1 tvg-id="nothing" ch-number="621" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(LAIN2)" tvg-logo="https://images.pluto.tv/channels/60faffc3fbbc120007fc4376/colorLogoPNG.png",Baby Shark TV
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #####https://newidco-babysharktv-1-gb.lg.wurl.tv/playlist.m3u8
-#####https://newidco-babysharktv-1-us.roku.wurl.tv/4300.m3u8
+
+#EXTINF:-1 tvg-id="60faffc3fbbc120007fc4376" ch-number="621" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(LAIN2)" tvg-logo="https://i.imgur.com/SbBKr8L.png",Baby Shark TV (PlutoTV)
+https://jmp2.uk/PlutoTV/60faffc3fbbc120007fc4376-alt.m3u8
+#####http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60faffc3fbbc120007fc4376/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner=
 
 #EXTINF:-1 tvg-id="5ff8c708653d080007361b14" ch-number="417" group-logo="http://vod-poster.astro.com.my/profile_avatar/Default.png" group-title="🇲🇾 Malaysia(LAIN2)" tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/colorLogoPNG.png",Paramount+ Picks
 https://jmp2.uk/PlutoTV/5ff8c708653d080007361b14-alt.m3u8
